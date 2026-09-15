@@ -27,3 +27,9 @@ The suite starts a local service and uses a synthetic image in temporary storage
 ## Keep the implementations distinct
 
 The [published internal Asset Studio case study](https://saraward.ai/asset-studio) describes the deployed predecessor and its current human-approval workflow. The independent service has its own QA and storage work. Results from one implementation should not be used as evidence for the other.
+
+## Implementation details
+
+- The internal workspace uses human approval; its published case study reports that the automated image evaluator was removed.
+- The independent service has separate storage and evaluation records. Dedicated production deployment remains pending, and external campaign writes are disconnected.
+- Local checks validate selected service behavior. They do not establish model accuracy, full browser usability, every approval path, or production readiness.
