@@ -1,8 +1,25 @@
 # Relay Asset Studio
 
+![Creative production, connected. Workflow illustration · deployed internal workspace; independent service remains local.](docs/images/project-overview.svg)
+
 A creative workspace connecting product context, AI-generated imagery, editable layouts, human review, and asset history.
 
 [Visual case study](https://saraward.ai/asset-studio) · [Technical evidence](docs/validation.md) · [Portfolio](https://saraward.ai)
+
+## At a glance
+
+- **For:** creative and ecommerce teams moving between product sources, image tools, layout edits, and approvals.
+- **My contribution:** product and workflow design, application development, AI integration, creative controls, and operating documentation.
+- **What this demonstrates:** translating a creative production process into an editable application with explicit review and asset history.
+- **Evidence:** [visual case study](https://saraward.ai/asset-studio) and [implementation / validation notes](docs/validation.md).
+
+**Status:** the internal creative workspace is deployed. The separate independent Relay service works locally; production deployment is pending. No efficiency, adoption, or revenue metric is claimed here.
+
+## See the workflow
+
+[![Sanitized interface illustration from the public Asset Studio case study, using fictional names and states.](docs/images/public-case-study.jpg)](https://saraward.ai/asset-studio#workflow)
+
+*Screenshot of the existing public case-study illustration. Names and states are fictional; no operational data is shown.*
 
 ## The problem
 
